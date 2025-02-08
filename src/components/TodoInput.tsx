@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function TodoInput(props) {
+export default function TodoInput(props: any) {
 	const { handleAddTodos, todoValue, setTodoValue } = props;
 	return (
 		<header>
